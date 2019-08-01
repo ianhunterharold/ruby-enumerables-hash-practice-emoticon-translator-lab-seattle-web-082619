@@ -1,7 +1,7 @@
 # require modules here
 
 def load_library
-  require 'yaml'
+require 'yaml'
 thing = YAML.load_file('some.yml')
 puts thing.inspect
 end
